@@ -1,0 +1,245 @@
+/* Kenznow Institute */
+.video-overlay { position: absolute; top: 0; left: 0; bottom: 0; right: 0; pointer-events: none; opacity: 0.3; background: #6f6f6f;}
+.jquery-background-video-wrapper { position: relative; overflow: hidden; background-position: center center; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; }
+.jquery-background-video { position: absolute; min-width: 100%; min-height: 100%; width: auto; height: auto; top: 50%; left: 50%; -o-object-fit: contain; object-fit: contain; -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+.js .jquery-background-video { opacity: 0; -webkit-transition: opacity 300ms linear; transition: opacity 300ms linear; }
+.js .jquery-background-video.is-visible { opacity: 1; }
+
+.jquery-background-video-pauseplay { position: absolute; background: transparent; border: none; box-shadow: none; width: 20px; height: 20px; top: 15px; right: 15px; padding: 0; cursor: pointer; outline: none !important; }
+.jquery-background-video-pauseplay span { display: none; }
+.jquery-background-video-pauseplay:after,
+.jquery-background-video-pauseplay:before { content: ""; position: absolute; left: 0; top: 0; -webkit-transition: all .3s ease; transition: all .3s ease; }
+.jquery-background-video-pauseplay.play:before { border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-left: 15px solid #FFF; }
+.jquery-background-video-pauseplay.pause:before,
+.jquery-background-video-pauseplay.pause:after { border-top: 10px solid #FFF; border-bottom: 10px solid #FFF; border-left: 5px solid #FFF; }
+.jquery-background-video-pauseplay.pause:after { left: 10px; }
+.video-hero .video-content { color: #FFF; margin-top: 10%; text-align: left; }
+.video-hero .video-content h4{ font-size: 32px; color: #FFFFFF; padding-top:  20px;  }
+.video-hero .video-content img { height: 120px; width: 240px; background: #FFF; padding: 20px; opacity: 0.9; }
+#insti-services .c-block { position: relative; bottom: 0; margin-bottom: 10px; margin-top: -125px; padding-left: 0px; }
+.kwinsti-shorttermc h1 { font-size: 32px; font-weight: 600; margin-bottom: 20px; color: #000; }
+.kwinsti-shorttermc p { color: #000; font-size: 18px; letter-spacing: 0.2px; text-align: center; line-height: 30px; }
+.kwinsti-shorttermc .stc span { font-size: 1.6rem; color: #536da4; font-weight: 500; padding-left: 15px; }
+.kwinsti-shorttermc .stc i { font-size: 1.6rem; color: #000000; }
+.kwinsti-shorttermc .scfeature{ padding-top: 20px; padding-bottom: 50px}
+.insti-feature h2{ font-size: 20px; font-weight: 600; margin-bottom: 5px; text-align: center; color: #FFFFFF; }
+.insti-feature p{ text-align: center; padding: 20px; font-size: 22px; font-family: 'Titillium Web', sans-serif; color: #abacae; }
+.kwinsti-career-cources { padding: 60px 0; }
+.kwinsti-career-cources h1 { font-size: 32px; font-weight: 600; margin-bottom: 20px; color: #000; text-align: center; }
+.kwinsti-career-cources h2 { font-size: 20px; font-weight: 600; margin-bottom: 5px; text-align: center; }
+.kwinsti-career-cources .cc-row {}
+.kwinsti-career-cources .cc-bg { padding: 0px; }
+.kwinsti-career-cources .cc-txt { padding-top: 30px; padding-bottom: 30px; }
+.kwinsti-career-cources .cc-txt h3 { font-size: 2.0rem; font-weight: 600; }
+.kwinsti-career-cources .cc-txt h4 { font-size: 1.4rem; color: #3b5998; padding-bottom: 20px; }
+.kwinsti-career-cources .cc-txt p { font-size: 1.0rem; color: #000000; padding: 5px; font-weight: 500; }
+.kwinsti-career-cources .cc-txt a { margin-top: 20px; }
+.kwinsti-reviews h2 { font-size: 32px; font-weight: 600; margin-bottom: 20px; color: #000; text-align: center; }
+.insti-commu .testi-main .uni-name { font-size: 20px; color: #000; padding-top: 10px; margin-bottom: 0px; font-weight: 500; }
+
+#insti-hero-area { color: #fff; overflow: hidden; position: relative; background: url(../img/kenz-institute/insti-hero-back.jpg); max-height: 650px; background-repeat: no-repeat; background-size: cover; }
+#insti-hero-area .contents { padding-top: 70px; }
+#insti-hero-area .contents .head-title { color: #FFFFFF; text-transform: uppercase; font-size: 30px; line-height: 48px; font-weight: 700; margin-bottom: 30px; }
+
+#hero-area-iubh {background-image: url('https://www.kenznow.com/assets/img/kenz-institute/iubh/iubh-bg.webp'); height: 450px;}
+.iubh-sec .container { margin-left: 80px;}
+.iubh-sec .head-title-typeriter {color: #FFF !important;text-transform: none;padding-top: 50px !important;font-size: 45px;margin-bottom: 10px;}
+.iubh-sec h4{ color: #FFFFFF; padding-bottom: 15px; }
+.iubh-sec img{height: 90px;background: #FFF;padding: 5px;width: 200px;}
+.iubh-sec .btn-cl-action {background: #3b5998;color: #FFFFFF;font-weight: 600;font-size: 16px;text-transform: uppercase;box-shadow: 0px 2px 3px 0px #000;margin-top: 4%;
+}
+
+/*#hero-area-duo {background-image: url('https://www.kenznow.com/assets/img/kenz-institute/duolingo-bg.jpg');}*/
+.duo { padding-top:5% ; padding-bottom: 5%;}
+.duo .head-title-typeriter-duo {color: #000000 !important;text-transform: none;padding-top: 10px !important;font-size: 45px;margin-bottom: 10px;}
+.duo h4{ color: #000000; padding-bottom: 15px; }
+.duo img{height: 90px;background: #FFF;padding: 5px;width: 200px;}
+.duo .btn-cl-action {background: #3b5998;color: #FFF;font-weight: 600;font-size: 16px;text-transform: uppercase;box-shadow: 0px 2px 3px 0px #000;}
+
+/* Services Item */
+#insti-services .services-item { background: #fff; margin: 15px 0; padding: 30px; border-radius: 4px; text-align: left; box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1); transition: all 0.3s ease-in-out 0s; -moz-transition: all 0.3s ease-in-out 0s; -webkit-transition: all 0.3s ease-in-out 0s; -o-transition: all 0.3s ease-in-out 0s; }
+#insti-services .services-item .icon i { font-size: 42px; color: #3b5998; }
+#insti-services .services-item .services-content h3 { font-weight: 600; text-transform: uppercase; margin-bottom: 10px; }
+#insti-services .services-item .services-content h3 a { font-size: 18px; color: #585b60; }
+#insti-services .services-item .services-content h3 a:hover { color: #3b5998; }
+#insti-services .col-services .services-item:hover { box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08); }
+#insti-services { position: relative; }
+#insti-services .col-services h3 { font-size: 18px !important; }
+#insti-services .col-services i { font-size: 1.6rem !important; float: left !important; padding-right: 20px; }
+#insti-services .col-services a:hover h3 { font-size: 18px !important; color: #3b5998 !important; }
+#insti-services .col-services .needs-abroad-service { text-align: center; }
+#insti-services .col-services .needs-abroad-service i { color: #3b5998 !important; font-size: 2.6rem !important; float: none !important; padding-right: 0px !important; }
+#insti-services .col-services .needs-abroad-service h3 span { color: #3b5998 !important; margin-top: 8px; }
+
+
+.insti-servicies .page-title { text-align: center; }
+.insti-servicies .page-title img { height: 70px; width: 180px; margin-bottom: 30px; }
+.insti-servicies .page-title h1 { text-align: center; font-size: 32px; font-weight: 600; margin-bottom: 20px; }
+.insti-servicies .page-title p { font-size: 16px; color: #000; font-weight: 500; letter-spacing: 0.2px; font-family: 'Titillium Web', sans-serif !important; }
+
+.insti-state-count .kenz-rate-app-count { background: #3b5998; text-align: center; padding: 25px 25px; border-radius: .25rem; }
+.insti-state-count .kenz-state-app-count { background: #3b5998; text-align: center; padding: 50px 25px; border-radius: .25rem; height: 310px; }
+.insti-state-count .kenz-state-app-count h2 { color: #fff !important; font-size: 2rem; }
+.insti-state-count .kenz-state-app-count span { font-weight: 600; padding: 10px 0px; }
+
+.insti-kwb .title { padding-top: 40px; }
+.insti-kwb .title h3 { text-align: center; font-size: 30px; font-weight: 500; margin-bottom: 10px; }
+.insti-kwb .title h1 { text-align: center; font-size: 32px; font-weight: 500; margin-bottom: 20px; margin-top: 20px; }
+.insti-kwb .title p { font-size: 18px; color: #000; margin-bottom: 6px; }
+.insti-kwb .title img { height: 70px; width: 196px; margin-bottom: 25px; }
+.insti-kwb .right-img img { height: 300px; width: 400px; }
+
+.insti-short-terms .service-overlay { background: rgba(0,0,0,0.5); width: 100%; padding-top: 35px; }
+.insti-short-terms .service-overlay p { color: #F2F2F2 !important; font-size: 18px; padding: 30px; letter-spacing: 0.2px; font-family: 'Titillium Web', sans-serif !important; }
+.insti-short-terms .text-wrapper { height: 100%; display: table; padding-left: 60px; padding-right: 50px; }
+
+.insti-short-terms .feature-courses { padding-left: 20px; padding-top: 20px; }
+.insti-short-terms .feature-courses .title-hl { color: #000 !important; font-size: 30px; font-weight: 500; margin-bottom: 20px; }
+.insti-short-terms .feature-courses .cos-row { padding: 5px 0px; }
+.insti-short-terms .feature-courses .cos-row .cos-icon { margin-top: 16px; text-align: center; }
+.insti-short-terms .feature-courses .cos-row .cos-icon i { font-size: 22px; color: #fff; background: #3b5998; padding: 9px; border-radius: 42px; }
+.insti-short-terms .feature-courses .cos-row .cos-text h2 { color: #3b5998; margin-top: 8px; font-size: 24px; font-weight: 600; }
+
+.insti-feature .title h1 { font-size: 32px; font-weight: 600; margin-bottom: 20px; color: #fff; }
+.insti-feature .application { margin-bottom: 15px; text-align: center; }
+.insti-feature .application .btn-common { background: transparent; border: 1px solid #fff; color: #fff; font-weight: bold; margin: 5px 15px 15px 15px; letter-spacing: 1px; }
+.insti-feature .application .btn-common i { font-size: 16px; margin-right: 8px; }
+.insti-feature .application .btn-common:hover { background-color: #3b5998; border: 1px solid #3b5998; color: #fff; }
+
+
+.insti-review .testi-main .card { box-shadow: 5px 5px 5px 1px #f2f2f2; padding: 25px 30px; }
+.insti-review .testi-main .card img { height: 150px; width: 150px; border-radius: 85px; }
+.insti-review .testi-main .card h5 { padding: 10px 11px; color: #3b5998; font-size: 21px; }
+.insti-review .testi-main .card .star-rate { font-size: 17px; color: #3b5998; padding-bottom: 10px; }
+.insti-review .testi-main .card .star-rate i { color: #c00; }
+.insti-review .testi-main .card .testi-text { font-size: 16px; font-weight: 600; color: #000 }
+
+.insti-review .testi-main .star { font-size: x-large; width: 22px; display: inline-block; color: #000; }
+.insti-review .testi-main .star:last-child { margin-right: 0; }
+.insti-review .testi-main .star:before { content:'\2605'; }
+.insti-review .testi-main .star.on { color: gold; }
+.insti-review .testi-main .star.half:after { content:'\2605'; color: gold; position: absolute; margin-left: -20px; width: 9.5px; overflow: hidden; }
+.insti-review .testi-main .visit-btn { font-size: 16px; color: #3c5a98; }
+.insti-review .testi-main .visit-btn:hover { text-decoration: underline; }
+
+.insti-commu p { font-family: 'Titillium Web', sans-serif !important; }
+.insti-commu .testi-main .card { box-shadow: 5px 5px 5px 1px #f2f2f2; height: 400px; margin-top: 10px; }
+.insti-commu .testi-main .profile-pic { text-align: center; }
+.insti-commu .testi-main .profile-pic img { width: 100%; height: 230px; }
+.insti-commu .testi-main .comm-name { font-size: 20px; color: #3b5998; padding-top: 10px; margin-bottom: 0px; font-weight: 600; }
+.insti-commu .testi-main .uni-name { margin-bottom: 0px; margin-top: 10px; }
+.insti-commu .testi-main .uni-name a { font-size: 20px; color: #000; padding-top: 0px; margin-bottom: 0px; font-weight: 500; }
+.insti-commu .testi-main .uni-name a:hover { text-decoration: underline; }
+.insti-commu .testi-main .uni-details { font-size: 20px; color: #000; padding-top: 10px; margin-bottom: 0px; font-weight: 500; }
+.insti-commu .testi-main .visit-btn { font-size: 16px; color: #3c5a98; }
+.insti-commu .testi-main .visit-btn:hover { text-decoration: underline; }
+
+.insti-give-shout p { font-family: 'Titillium Web', sans-serif !important; }
+.insti-give-shout { text-align: center; background: #f2f2f2 }
+.insti-give-shout h1 { font-size: 30px; margin-bottom: 10px; font-weight: 600; }
+.insti-give-shout p { font-size: 15px; color: #000; padding: 5px 0px 15px 0px; }
+.insti-give-shout label { font-size: 18px; color: #000; }
+.insti-give-shout label.error { font-size: 18px; color: #f00; }
+.insti-give-shout input { border: 1px solid #9a9a9a; border-radius: 10px; }
+.insti-give-shout textarea { border: 1px solid #9a9a9a; border-radius: 10px; }
+.insti-give-shout select { padding: 5px; border-radius: 10px; background: #fff; }
+.insti-give-shout .btn-common { border-radius: 20px; }
+
+#insti-learn-language { padding: 35px 0px; background: #f5f5f5 }
+#insti-learn-language .learn-lang-index { text-align: center; }
+#insti-learn-language .learn-lang-index h1 { font-size: 30px; color: #222222; display: inline-block; font-weight: 600; margin-bottom: 10px; }
+#insti-learn-language .learn-lang-index h2 { font-size: 20px; font-weight: 600; margin-bottom: 20px; }
+#insti-learn-language .learn-lang-index p { font-size: 16px; color: #000; margin-bottom: 20px; }
+
+#insti-learn-language .berltz-kenz-image { text-align: center; margin: 0px 0px 10px 0px; }
+#insti-learn-language .berltz-kenz-image img { height: 40px; }
+#insti-learn-language .berltz-kenz-devider { font-size: 35px; font-weight: 600; color: #9ac71e; }
+
+#insti-learn-language .lang-item { text-align: center !important; background: #fff; margin: 15px 12px; padding: 10px; border-radius: 25px; text-align: left; box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1); transition: all 0.3s ease-in-out 0s; -moz-transition: all 0.3s ease-in-out 0s; -webkit-transition: all 0.3s ease-in-out 0s; -o-transition: all 0.3s ease-in-out 0s; float: left; }
+#insti-learn-language .lang-item:hover { box-shadow: 20px 20px 30px 20px rgba(0, 0, 0, 0.08); }
+#insti-learn-language .lang-item a:hover { text-decoration: none; }
+#insti-learn-language .lang-item .lang-flag { float: left; margin: 5px 10px 0px 30px; }
+#insti-learn-language .lang-item .lang-flag img { height: 40px; }
+#insti-learn-language .lang-item .lang-show { font-size: 20px; color: #3c5a98; margin-bottom: 0px; margin-right: 40px; }
+#insti-learn-language .lang-item .lang-hide { font-size: 20px; color: #000 !important; }
+#insti-learn-language .lang-item p { margin-bottom: 10px; margin-top: 10px; }
+#insti-learn-language .learn-lang-index .btn-common { margin-top: 15px; }
+#insti-learn-language .lang-item-margin { margin-left: 9%; }
+
+#insti-career-courses { padding: 25px 0px 35px 0px; background: #f2f2f2 }
+#insti-career-courses .title { text-align: center; }
+#insti-career-courses .title h1 { font-size: 30px; color: #222222; display: inline-block; font-weight: 600; margin-bottom: 10px; }
+#insti-career-courses .title h2 { font-size: 20px; font-weight: 600; margin-bottom: 5px; }
+
+#career-courses .item { margin: 10px 2px; box-shadow: 1px 1px 10px 1px #ccc; height: 430px; background: #fff; }
+#career-courses .item .caro-course-img img { height: 160px; width: 100%; }
+#career-courses .item .caro-course-content { padding: 15px 10px; text-align: center; }
+#career-courses .item .caro-course-content h3 { font-size: 20px; color: #3b5998; }
+#career-courses .item .caro-course-content h4 { font-size: 17px; font-weight: 500; margin-top: 10px; }
+#career-courses .item .caro-course-content p { font-size: 15px; color: #000; margin: 7px 0px; }
+#career-courses .item .caro-course-content .mt-10 { margin-top: 10px; }
+#career-courses .item .caro-course-content .mt-10 .btn-common { padding: 5px 20px; }
+#career-courses .item .caro-course-content .btn-udm-course { width: 100%; background: #3b5998; border-radius: 15px; font-size: 16px; padding: 6px 0px; }
+#career-courses .item .caro-course-content .btn-udm-course:hover { color: #fff; background: #ec5252; }
+#career-courses .owl-nav { display: none; }
+#career-courses .udm-ind-ind-btn a { padding: 5px 20px; text-transform: capitalize; }
+
+#insti-courses-coursera { padding: 25px 0px 35px 0px; }
+#insti-courses-coursera .title { text-align: center; }
+#insti-courses-coursera .title h1 { font-size: 30px; color: #222222; display: inline-block; font-weight: 600; margin-bottom: 10px; }
+#insti-courses-coursera .title h2 { font-size: 20px; font-weight: 600; margin-bottom: 5px; }
+#insti-courses-coursera .learcou-index-left { text-align: center; padding-top: 10px; }
+#insti-courses-coursera .learcou-index-left .coursera-degree-ind .card { padding: 20px; width: 95%; margin-left: 5%; margin-top: 20px; border: 0px solid rgba(0,0,0,.125); }
+#insti-courses-coursera .learcou-index-left .coursera-degree-ind .card i { font-size: 42px; color: #3b5998; text-align: center; text-decoration: none; }
+#insti-courses-coursera .learcou-index-left .coursera-degree-ind .card h3 { font-size: 20px; color: #3b5998; text-align: center; text-decoration: none; font-weight: 600; }
+#insti-courses-coursera .learcou-index-left .coursera-degree-ind .card1 { box-shadow: 0px 0px 10px #d6d6d6; transition: all 0.5s; background: #f8ffd7; }
+#insti-courses-coursera .learcou-index-left .coursera-degree-ind .card1 p { font-size: 16px; color: #3b5998; margin-bottom: 5px; margin-top: 10px; }
+#insti-courses-coursera .learcou-index-left .coursera-degree-ind .card1 a{ width: 35%;margin-left: 35%;margin-top: 5%;}
+#insti-courses-coursera .learcou-index-left .coursera-degree-ind .card1 p i { font-size: 16px; color: #3b5998; }
+#insti-courses-coursera .learcou-index-left .coursera-degree-ind .card2 { box-shadow: 0px 0px 10px #d6d6d6; transition: all 0.5s; background: #e2f1f8; }
+#insti-courses-coursera .learcou-index-left .coursera-degree-ind .card2 p { font-size: 16px; color: #3b5998; margin-bottom: 5px; margin-top: 10px; }
+#insti-courses-coursera .learcou-index-left .coursera-degree-ind .card2 p i { font-size: 16px; color: #3b5998; }
+#insti-courses-coursera .learcou-index-left .coursera-degree-ind .card2 a{ width: 35%;margin-left: 35%;margin-top: 5%;}
+
+#insti-blog .section-title { font-size: 30px; color: #000; display: inline-block; font-weight: 600; text-transform: none; position: relative; }
+#insti-blog .blog-item-wrapper { background: #fff; border-radius: 4px; box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.1); -webkit-transition: transform 0.2s linear, -webkit-box-shadow 0.2s linear; -moz-transition: transform 0.2s linear, -moz-box-shadow 0.2s linear; transition: transform 0.2s linear, box-shadow 0.2s linear; }
+#insti-blog .blog-item-wrapper:hover { box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08); }
+#insti-blog .blog-item-wrapper:hover .blog-item-img:before { opacity: 1; height: 100%; width: 100%; }
+#insti-blog .blog-item-img { position: relative; overflow: hidden; border-top-left-radius: 4px; border-top-right-radius: 4px; }
+#insti-blog .blog-item-img img { width: 100%; }
+#insti-blog .blog-item-text { padding: 20px; }
+#insti-blog .blog-item-text h3 { font-size: 15px; font-weight: 600; display: block; }
+#insti-blog .blog-item-text h3 a { color: #3b5998; font-size: 18px; }
+#insti-blog .blog-item-text h3 a:hover { color: #3b5998; }
+#insti-blog .blog-item-text p { line-height: 25px; margin-bottom: 20px; color: #000; font-family: 'Titillium Web', sans-serif !important; }
+
+@media (max-width: 767px) { 
+	.insti-kwb .right-img img { width: 100%; height: 250px; } 
+  	#insti-learn-language .lang-item { margin: 15px 0px; }
+  	#insti-courses-coursera .learcou-index-left .coursera-degree-ind .card { height: 320px; margin-left: 3%; }
+  	.insti-state-count .kenz-state-app-count { height: 450px; }
+  	.insti-short-terms .service-overlay p { padding: 0px; }
+  	.insti-review .testi-main .card { margin-top: 10px; }
+  	#insti-blog .blog-item-wrapper { margin-top: 10px; }
+
+  	.video-hero .video-content{margin-top: 50%;}
+  	.video-hero .video-content img {height: 100px; width: 200px;}
+  	.video-hero .video-content h4 { font-size: 26px }
+  	.col-services{margin-left:5%;}
+  	.insti-short-terms .text-wrapper{padding: 30px !important}
+  	.kwinsti-shorttermc .scfeature{ padding-top: 20px; padding-bottom: 0px;}
+  	.kwinsti-shorttermc .stc{ text-align: left; padding-left: 20%; padding-bottom: 5%; }
+  	#insti-courses-coursera .learcou-index-left .coursera-degree-ind .card {height: auto !important}
+  	#insti-courses-coursera .learcou-index-left .coursera-degree-ind .card1 a { width: 50%;margin-left: 25%;}
+  	#insti-courses-coursera .learcou-index-left .coursera-degree-ind .card2 a { width: 50%;margin-left: 25%;}
+  	#insti-learn-language .lang-item-margin { margin-left: 0px !important; }
+  	.insti-commu .testi-main .card { height: 440px; }
+
+  	#hero-area-iubh {background-position-x: -800px; background-size: cover; background-repeat: no-repeat; height: 700px;}
+  	.iubh-sec .head-title-typeriter {padding-top: 40px !important;font-size: 30px;	}
+  	.iubh-sec h4 {font-size: 25px;}
+  	.iubh-sec .container { margin-left: 10px !important;}
+  	.iubh-sec img { margin-bottom: 10px; }
+
+  	.duo .head-title-typeriter-duo {font-size: 36px !important;}
+}
