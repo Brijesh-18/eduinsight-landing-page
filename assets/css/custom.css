@@ -846,3 +846,14 @@ app-section-title .bar::before {
   margin: 6px 0;
   font-size: 14px;
 }
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        max-width: 1010px;
+    }
+}
